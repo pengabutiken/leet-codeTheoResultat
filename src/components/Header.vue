@@ -21,6 +21,8 @@
    font-family: "Press Start 2P", system-ui;
 
 }
-
+h1:hover{
+    color: black;
+}
 
 </style>
