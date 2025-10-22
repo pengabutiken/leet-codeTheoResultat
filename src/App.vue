@@ -2,6 +2,7 @@
   <div id="app">
     <Header></Header>
     <div class="content">
+      <section class="row">
     <Problem
       title="Two Sum"
       description="Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target."
@@ -18,7 +19,10 @@ for(let i =0; i<nums.length;i++){
 return [];
     }
 "
-    ></Solution>
+    ></Solution> </section>
+    <section class="row">
+    <Problem title="Palidrome Number" description="Given an integer x, return true if x is a palindrome, and false otherwise."></Problem>
+    </section>
     </div>
   </div>
 </template>
@@ -39,9 +43,15 @@ body {
 }
 .content{
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px; 
   padding: 20px;
   
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 </style>

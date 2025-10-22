@@ -17,9 +17,10 @@ defineProps({
 </script>
 <style scoped>
 .problem-card {
-  background-color: #f0f0f0;
-    font-family: "Vend Sans", sans-serif;
-  
+  background-color: #ffffff;
+       font-family: "Google Sans Code", monospace;
+       font-weight: 300;
+  padding: 30px;
   width: 50%;
 }
 </style>
