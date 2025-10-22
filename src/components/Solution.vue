@@ -14,8 +14,18 @@ defineProps({
 <style scoped>
 .solution-card {
   background-color: #e8f5e9;
-  padding: 15px;
-  border-radius: 8px;
-  white-space: pre-wrap; 
+  width:40%;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;  
+  
+}
+code{
+      font-family: "Google Sans Code", monospace;
+  
+  font-weight: 300;
+  font-style: normal;  
+  
 }
 </style>

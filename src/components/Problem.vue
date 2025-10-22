@@ -18,7 +18,8 @@ defineProps({
 <style scoped>
 .problem-card {
   background-color: #f0f0f0;
-  padding: 15px;
-  border-radius: 8px;
+    font-family: "Vend Sans", sans-serif;
+  
+  width: 50%;
 }
 </style>

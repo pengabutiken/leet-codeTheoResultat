@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    <div class="content">
     <Problem
       title="Two Sum"
       description="Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target."
@@ -18,6 +19,7 @@ return [];
     }
 "
     ></Solution>
+    </div>
   </div>
 </template>
 <script setup>
@@ -30,7 +32,16 @@ import Solution from "./components/Solution.vue";
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color: black;
+  
+  background-color: gray;
+
+  
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  
 }
 </style>
