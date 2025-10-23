@@ -21,7 +21,7 @@ return [];
 "
         ></Solution>
       </section>
-      <Comment comments="// tänkte som i en bubbel sort och efter det blev det ganska simpelt."> </Comment>
+      <Comment comments="// tänkte som i en bubbel sort och efter det blev det ganska simpelt." time="20-25 Minuter"> </Comment>
 
       <section class="row">
         <Problem
@@ -39,6 +39,7 @@ return [];
     }"
         ></Solution>
       </section>
+      <Comment  time="10 Minuter"comments="// förstod ganska snabbt att jag skulle behöva anvönda reverse, split och join men det tog lite tid för mig att förstå att man skulle ge dem tomma citationstecken som parametrar fick kolla upp js dokumentation."> </Comment>
       <section class="row">
         <Problem title="Roman to Integer" description="Roman numerals are
         represented by seven different symbols: I, V, X, L, C, D and M. Symbol
@@ -78,6 +79,26 @@ return [];
 
 };"></Solution>
       </section>
+      <Comment time="..." comments="//denna var tuff... hittade en youtube video som hjälpte mig lösa detta... aja får kolla på lösningen mer."></Comment>
+  
+    <section class="row">
+      <Problem title="Longest Common Prefix" description="Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string ."></Problem>
+<Solution solution="var longestCommonPrefix = function(strs) {
+ 
+     let prefix = strs[0];
+  for (let i = 1; i < strs.length; i++) {
+    while (strs[i].indexOf(prefix) !== 0) {
+      prefix = prefix.substring(0, prefix.length - 1);
+    }
+  }
+  return prefix;
+}"></Solution>
+
+
+    </section>
+    <Comment time="45-60 Minuter" comments="Denna var svår med, efter jag lekte runt med substring och läste dokumentation kom jag fram till lösningen men det var ej lätt, mycket stirr på skärmen.." ></Comment>
     </div>
   </div>
 </template>

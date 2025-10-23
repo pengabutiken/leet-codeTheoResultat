@@ -1,17 +1,24 @@
 <template> 
-<p>{{ comments }}</p>
 
+<div>
+
+    <h6> <span class="material-symbols-outlined">
+timer
+</span> {{ time }}</h6>
+<p>{{ comments }}</p>
+</div>
 </template>
 
 <script setup>
 defineProps({
-    comments:String
+    comments:String,
+    time:String
 })
 </script>
 
 
 <style scoped>
-p{
+div{
     width: 100%;
     background-color: white;
     padding: 20px;
@@ -19,5 +26,16 @@ p{
     font-style: italic;
     font-weight: 100;
     font-size: 12px;
+
+}
+span{
+    font-size:20px;
+    line-height: 2;
+    font-weight: bold;
+}
+h6{
+    font-style: none;
+    font-weight: bold;
+    font-size: 15px;
 }
 </style>
