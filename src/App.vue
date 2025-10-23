@@ -21,6 +21,8 @@ return [];
 "
         ></Solution>
       </section>
+      <Comment comments="// tänkte som i en bubbel sort och efter det blev det ganska simpelt."> </Comment>
+
       <section class="row">
         <Problem
           title="Palidrome Number"
@@ -83,6 +85,7 @@ return [];
 import Header from "./components/Header.vue";
 import Problem from "./components/Problem.vue";
 import Solution from "./components/Solution.vue";
+import Comment from "./components/Comment.vue";
 </script>
 <style>
 body {
